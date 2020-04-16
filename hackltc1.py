@@ -1,7 +1,6 @@
-
-
-for num in range(1,15):
-    print(num)
-    if num==2:
-        break
-
+import random
+for _ in range(2):
+    value= random.randint(0,7)
+    print(value)
+    
+    
